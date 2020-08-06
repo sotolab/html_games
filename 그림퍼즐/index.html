@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+	<title>그림 퍼즐 맞추기</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.puzzle.js"></script>
+	<script type="text/javascript">
+		$(
+			function () {
+				$("div.puzzle, p").puzzle(500);	//퍼즐조각 사이즈 (작으면 작을수록 어려워집니다)
+			}
+		);
+
+	</script>
+</head>
+
+<body>
+
+	<br>
+	<br>
+	
+	<table border="0">
+			<tr>
+					<td style="text-align: center;" colspan="2">  <a href="JavaScript:window.location.reload()">처음부터 다시 시작</a></td>
+				 </tr>
+			  
+		<tr>
+			<th>
+
+				<div>
+					<p> 퍼즐 게임 </p>
+				</div>
+
+				<div class="puzzle" style="float: left ; margin-right: 50px;background-color:#000">
+					<img src="img/main.jpg" width="400" height="400" alt="" />
+				</div>
+
+
+
+
+			</th>
+			<th>
+				<div>
+					<p> 원본 사진 </p>
+				</div>
+				<div style="float: left ; margin-right: 50px;background-color:#000">
+					<img src="img/main.jpg" width="400" height="400" alt="" />
+				</div>
+
+
+			</th>
+		</tr>
+	</table>
+
+
+
+
+
+
+
+</body>
+
+</html>
